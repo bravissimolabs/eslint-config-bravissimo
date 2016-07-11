@@ -5,11 +5,20 @@ module.exports = {
   rules: {
     'comma-dangle': [2, 'never'],
     'no-use-before-define': [2, 'nofunc'],
+
+    // Replace default rule with one from eslint-plugin-babel to avoid errors
     'generator-star-spacing': 0,
     'babel/generator-star-spacing': [2, {
       before: false,
       after: true
     }],
+
+    // Replace default rule with one from eslint-plugin-babel to avoid errors
+    // The babel rule is based off an older version of the original, and does
+    // not support the additional properties defined in the airbnb-base config.
+    'object-shorthand': 0,
+    'babel/object-shorthand': 2,
+
     indent: [2, 2, {
       VariableDeclarator: {
         var: 2,
