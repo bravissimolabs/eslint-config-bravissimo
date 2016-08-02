@@ -19,7 +19,7 @@ The following rules apply in addition to (or instead of) the [base Airbnb rules]
     $ npm install --save-dev \
         eslint@^3.2.2 \
         eslint-plugin-babel@^3.3.0 \
-        eslint-plugin-import@^1.12.0
+        eslint-plugin-import@^1.12.0 \
         eslint-config-bravissimo@^2.0.0 \
 
 ## Usage
