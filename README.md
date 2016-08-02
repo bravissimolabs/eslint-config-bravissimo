@@ -17,11 +17,10 @@ The following rules apply in addition to (or instead of) the [base Airbnb rules]
 ## Installation
 
     $ npm install --save-dev \
-        eslint@^3.0.1 \
+        eslint@^3.2.2 \
         eslint-plugin-babel@^3.3.0 \
-        eslint-plugin-import@^1.10.2
-        eslint-config-airbnb-base@^4.0.0 \
-        eslint-config-bravissimo@^1.0.1 \
+        eslint-plugin-import@^1.12.0
+        eslint-config-bravissimo@^2.0.0 \
 
 ## Usage
 
