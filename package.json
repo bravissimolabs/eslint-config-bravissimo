@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bravissimo",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "ESLint configuration for Bravissimo projects",
   "main": "index.js",
   "scripts": {
