@@ -19,16 +19,18 @@
   ],
   "author": "Luke Bennett (http://lukebennett.com)",
   "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb": "^10.0.0"
+  },
   "devDependencies": {
     "babel-eslint": "^6.1.1",
-    "eslint": "^3.0.1",
+    "eslint": "^3.2.2",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^1.11.0"
+    "eslint-plugin-import": "^1.12.0"
   },
   "peerDependencies": {
-    "eslint": "^3.0.1",
-    "eslint-config-airbnb-base": "^4.0.0",
+    "eslint": "^3.2.2",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^1.11.0"
+    "eslint-plugin-import": "^1.12.0"
   }
 }
