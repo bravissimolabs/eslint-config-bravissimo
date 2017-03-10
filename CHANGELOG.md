@@ -1,3 +1,7 @@
+2.0.1 / 2017-03-10
+==================
+- Bump to `eslint-config-airbnb@14.1.0`
+
 2.0.0 / 2016-08-02
 ==================
 - Switch from using `airbnb-base` to `airbnb/base` to avoid any dependency clashes with `eslint-config-bravissimo-react`
