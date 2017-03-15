@@ -1,6 +1,8 @@
-2.0.1 / 2017-03-10
+3.0.0 / 2017-03-10
 ==================
 - Bump to `eslint-config-airbnb@14.1.0`
+- Update other dependencies - `eslint` to `3.17.1` and `eslint-plugin-import` to `2.2.0`
+
 
 2.0.0 / 2016-08-02
 ==================
