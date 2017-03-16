@@ -44,6 +44,11 @@ module.exports = {
       requireParamDescription: false,
       requireReturnDescription: false,
       requireReturn: false
-    }]
+    }],
+
+    'import/extensions': 'off',
+    'arrow-parens': ['error', 'as-needed'],
+    'no-multi-assign': 'off',
+    'no-plusplus': 'off'
   }
 };

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bravissimo",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "ESLint configuration for Bravissimo projects",
   "main": "index.js",
   "scripts": {
@@ -20,17 +20,21 @@
   "author": "Luke Bennett (http://lukebennett.com)",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb": "^10.0.0"
+    "eslint-config-airbnb": "^14.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.1",
-    "eslint": "^3.2.2",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^1.12.0"
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0"
   },
   "peerDependencies": {
-    "eslint": "^3.2.2",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^1.12.0"
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0"
   }
 }
